@@ -1,4 +1,149 @@
-h2
+:root{
+    --font-poppins:'Poppins', sans-serif; 
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-size-14: 1.17rem ;
+    --font-size-16: 1.33rem ;
+    --font-size-18: 1.50rem ;
+    --font-size-24: 2rem ;
+    --font-size-36: 3rem ;
+    --font-size-60: 5rem ;
+
+    --border-radius-small: 8px;
+    --border-radius-medium: 25px;
+    --border-radius-rounded: 50px;
+
+    --color-gray-1:#f5f5f5;
+    --color-gray-2:#BEBEBE;
+    --color-gray-3:#616365;
+    --color-coral:#FF7373; 
+    --color-dark:#23262A;
+    --color-white:#FFF;  
+
+}
+
+html, body
 {
-    color:blue
+    font-size: 1rem;
+    line-height:1.5;
+    font-family: var(--font-poppins);
+    font-weight: var(--font-weight-regular);
+    
+}
+
+.contact-header .nav-container
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--color-gray-1);
+    
+}    
+
+.contact-header .nav-container h1{
+    font-size: var(--font-size-36);
+    font-weight: bold;
+}
+
+.contact-header .nav-container .nav-icons
+{
+    font-size: 1rem;
+    
+  
+     
+}
+
+.contact-header .nav-container .nav-icons .fa-retweet
+{
+    font-size: 0.9rem;
+}
+.contact-header .nav-container .nav-icons .menu-link
+{
+    margin:0.8rem;
+    padding:0.4rem 0.6rem;
+    background-color: var(--color-white);
+    color:var(--color-dark);
+    border-radius: 100%;
+}
+
+.contact-header .nav-container .nav-categories a
+{
+    color: #23262A;
+    margin:1.5rem;
+    font-weight: var(--font-weight-regular);
+    text-decoration: none;
+
+}
+
+
+.contact-header .nav-container .nav-categories a:hover
+{
+    transition: 0.2s;
+    color:var(--color-coral);
+}
+
+.contact-header .nav-container .nav-icons .menu-link:hover{
+    transition: 0.2s;
+    color:var(--color-coral);
+    background-color: #23262A;
+}
+
+.comment-form 
+{
+    margin-top:5rem;
+}
+.comment-form h5
+{
+    padding-left:25.4rem;
+}
+
+.comment-form button
+{
+    font-weight: bold;
+    margin-left:25.4rem;
+    margin-top:1rem;
+    padding: 0.5rem 2rem;
+    background-color: var(--color-coral);
+    color: var(--color-white);
+    position:absolute;
+}
+
+.comment-form .contact_container
+{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:1.7rem;
+    
+}
+
+.comment-form .comment_container
+{
+   
+    position:relative;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    text-align: start;
+}
+ #comment_name
+{
+    width:33.625rem;
+    height:3.125rem;
+      
+}
+
+#comment_email
+{
+    width:33.625rem;
+    height:3.125rem;
+}
+
+#comment_comment
+{
+    
+    width:69.375rem;
+    height:8.75rem;
 }

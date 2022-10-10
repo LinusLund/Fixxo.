@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contacts">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts Fixxo</title>
+    <script src="https://kit.fontawesome.com/41c8b474e2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="Css/style.css" rel="stylesheet">
+</head>
+<body>
+    <Header class="contact-header">
+        <Nav class="nav-container">
+
+            <h1 class="logo">Fixxo.</h1>
+
+            <div class="nav-categories">
+                <a href="#">Home</a>
+                <a href="#">Categories</a>
+                <a href="#">Products</a>
+                <a href="#">Contacts</a>
+            </div>
+
+            <div class="nav-icons">
+                <a class="menu-link" href="#"><i class="fa-light fa-search"></i></a>
+                <a class="menu-link" href="#"><i class="fa-light fa-retweet"></i></a>
+                <a class="menu-link" href="#"><i class="fa-light fa-heart"></i></a>
+                <a class="menu-link" href="#"><i class="fa-light fa-bag-shopping"></i></a>     
+            </div>
+
+        </Nav>
+    </Header>
+    <div>
+        <img src="Images/map2.svg" alt="Picture of Stockholm">
+    </div>
+
+    <section class="comment-form">
+
+        <h5>Come in contact with us</h5>
+
+        <form id="commentForm">
+            <div class="contact_container">
+                <div class="mb-3">
+                    <input id="comment_name" type="text" autocomplete="given-name" placeholder="Your Name">
+                </div>
+
+                <div class="mb-3">
+                    <input id="comment_email" type="text" autocomplete="email" placeholder="Your Mail" >
+                </div>
+            </div>
+
+            <div class="comment_container">
+                <div class="mb-3">
+                    <textarea id="comment_comment" type="TextArea" placeholder="Comments" rows ="3"></textarea>
+                    
+                </div>
+            </div>
+            <button type="submit" class="btn btn-theme">Post Comments</button>
+        </form>
+
+        
+
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
